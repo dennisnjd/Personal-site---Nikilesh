@@ -1,0 +1,336 @@
+#subtotal_works{
+    width: 100%;
+    height: 100vh;
+    /*background-image: url('draww.jpg');*/
+    background-color: #f6f7fa;
+    background-size: cover;
+    position: relative;
+  }
+  #body_works{
+    font-family: 'Fira Sans Condensed', sans-serif;
+   /* background-color: rgba(0, 0, 0, 1);*/
+   background-color: white;
+    width: 100%;
+}
+
+#navs_works{
+    background-color: transparent;
+    width: 24vw;
+    height: 55vh;
+    position: absolute;
+    z-index: 1;
+    text-align: right;
+    margin-left: 75vw;
+    margin-top: 2vh;
+}
+
+element.style {
+    position: absolute;
+    left: 0%;
+    top: 3425px;
+}
+.overlay:hover span.bg {
+    opacity: 1;
+    -webkit-transition: opacity 0.35s ease-in-out;
+    -o-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+}
+
+.tiles:not(.tiles-s):not(.tiles-m):not(.no-gutter) .item {
+    margin-bottom: 30px;
+}
+@media (max-width: 767px)
+.row>[class*="col-"] {
+    margin-bottom: 30px;
+}
+.grid-view .post, .grid-view .item {
+    margin-bottom: 30px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.tiles .item figure img {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+figure.overlay img {
+    opacity: 1;
+    width: 100%;
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+}
+.overlay img {
+    max-width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    vertical-align: top;
+}
+.overlay img {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+.overlay1 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.overlay * {
+    color: #ffffff !important;
+}
+.overlay * {
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+figure img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.box.p-30 {
+    padding: 15px 15px 15px;
+    margin-bottom: 7vh;
+}
+.bg-white {
+    background-color: #FFF;
+}
+.box {
+    padding: 40px 40px 20px;
+    border-radius: 4px;
+}
+.shadow {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04) !important;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.bg-white {
+    background-color: #fff!important;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center!important;
+}
+body, li, address {
+    line-height: 28px;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #505050;
+    font-family: 'Louis George Cafe', sans-serif;
+    font-size: 16px;
+    background: #f6f7fa;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+::selection {
+    background: #fefac7;
+    color: #404040;
+}
+box-sizing:border-box;{
+color:rgb(80, 80, 80);
+display:block;
+font-family:"Louis George Cafe", sans-serif;
+font-size:16px;
+font-weight:400;
+height:564px;
+line-height:28px;
+margin-block-end:20px;
+margin-block-start:-15px;
+margin-bottom:20px;
+margin-inline-end:-15px;
+margin-inline-start:-15px;
+margin-left:-15px;
+margin-right:-15px;
+margin-top:-15px;
+padding-bottom:0px;
+padding-left:0px;
+padding-right:0px;
+padding-top:0px;
+position:relative;
+text-align:center;
+text-size-adjust:100%;
+transform:matrix(1, 0, 0, 1, 0, 0);
+width:470px;
+-webkit-font-smoothing:antialiased;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+
+.overlay span.bg {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.overlay a, .overlay span.bg {
+    position: relative;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    cursor: pointer !important;
+}
+.overlay1 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+
+
+
+
+#roww{
+    padding: 5vw;
+}
+#writing_mywork{
+    background-color: transparent;
+    height: 10vh;
+    margin-bottom: 10vh;
+    border-bottom: 2px solid rgb(248, 5, 5);
+    text-align: center;
+    padding-top: 4vh;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 50px;
+}
+
+
+
+                    /* Copyright div*/
+
+#copyright_about{
+    color: white;
+    width: 100%;
+    height: 11vh;
+    background-color: #110d07;
+    text-align: center;
+    margin-top: 14vh;
+    padding-top: 5vh;
+  }
+  #rose{
+    color: #dc143c;
+  }
+  #details_para{
+    opacity: .7;
+  }
+  .point{
+    color: #edad29;
+  }
+
+  #More-works{
+      margin-top: 5vh;
+      color: white;
+      background-color: #d14706;
+      border: 5px solid transparent;
+      border-radius: 19px;
+  }
+  #More-works:hover{
+      background-color: black;
+      transition: ease-in;
+      border: 4px solid black ;
+    }

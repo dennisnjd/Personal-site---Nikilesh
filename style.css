@@ -1,0 +1,274 @@
+*{
+    margin:0%;
+  }
+
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    background-color: rgba(0, 0, 0, .9);
+    width: 100%;
+}
+
+
+
+
+#subtotal{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('krishnann(1).jpg'); */
+    background-image: url("./profPic1.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#letters{                                      /* div of introduction of main page */
+    background-color:transparent;
+    height: 100vh;
+    width: 100%;
+    
+    position: absolute;
+}
+h1{                                           /* "WELCOME TO MY SITE" writing part */
+    color:  rgba(212, 209, 209, 0.9 );
+    letter-spacing: 2px;
+    font-size:  calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;
+    font-weight: bold;
+    margin-right: 3.7vw;
+    margin-top: 52.5vh;
+} 
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+h3 {
+    font-size: 2.3rem;                                /*Animated text area*/
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: right;
+    overflow: hidden;
+    margin-top:-5vw;
+  }
+h3 span.typed-text {
+    font-weight: normal;
+    color: rgb(250, 75, 6);
+    margin-right: 1vw;
+  }
+  h3 span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-right: 7vw;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  h3 span.cursor.typing {
+    animation: ;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+  #navs{
+    background-color: transparent;
+    width: 38vw;
+    height: 55vh;
+    position: absolute;
+    z-index: 1;
+    text-align: right;
+    margin-left: 61.6vw;
+    margin-top: 2vh;
+  }
+
+  #copyright{                                              /*Copyright divs*/
+    color: white;
+    width: 100%;
+    height: 10vh;
+    background-color: #110d07;
+    text-align: center;
+    padding-top: 5vh;
+  }
+  
+  .point{
+    color: #edad29;
+  }
+
+
+
+
+
+
+  
+                                              /* Style of About.html*/
+
+  #subtotal_about{
+    width: 100%;
+    height: 100vh;
+    background-image: url('draww.jpg');
+    background-size: cover;
+    position: relative;
+  }
+  #body_about{
+    font-family: 'Fira Sans Condensed', sans-serif;
+   /* background-color: rgba(0, 0, 0, 1);*/
+   background-color: white;
+    width: 100%;
+}
+
+#navs_about{
+    background-color: transparent;
+    width: 24vw;
+    height: 55vh;
+    position: absolute;
+    z-index: 1;
+    text-align: right;
+    margin-left: 75vw;
+    margin-top: 2vh;
+}
+
+#jumbotron{
+  width: 73vw;
+  height: 116vh;
+  margin-top: 45vh;
+  margin-left: 12vw; 
+  text-align: center;
+  background-color: #1d1c1b;
+  padding-top: 3vw;
+  border-radius: 20px;
+}
+
+#jumbo_h1{
+  margin-top: 0;
+  text-align: left;
+}
+.block {
+  width: 70px;
+  display: block;
+  height: 2px;
+  background: #dba539;
+  background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+  background: -webkit-linear-gradient(-45deg, #dba539 0%, #dc143c 100%);
+  background: linear-gradient(135deg, #dba539 0%, #dc143c 100%);
+}
+#jumb2{
+  margin-top: 8vh;
+  height: 85vh;
+  padding-top: 1rem;
+  background-image: url('paa.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+              /* style area of the box of about .*/
+
+.profile-info {
+  position: static;
+  top: 30%;
+  width: 60vw;
+  padding: 1rem 1rem;
+  right: -2;
+  margin: 2rem;
+  border-radius: 1em;
+  background: #fff;
+  /* -webkit-box-shadow: 0px 15px 50px -13px rgba(0,0,0,0.34); */
+  -moz-box-shadow: 0px 15px 50px -13px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 15px 50px -13px rgba(0, 0, 0, 0.34);
+}
+
+.profile-info:before,
+.profile-info:after {
+  position: absolute;
+  width: 50%;
+  height: 20px;
+  content: ' ';
+  left: 25px;
+  bottom: 30px;
+  transform: skew(-7deg) rotate(-3deg);
+  box-shadow: 0 30px 2px 7px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+.profile-info:after {
+  left: auto;
+  right: 25px;
+  transform: skew(4deg) rotate(3deg);
+}
+
+.profile-info .content h3 {
+  text-transform: uppercase;
+  color: #dc143c;
+  letter-spacing: 0.2em;
+}
+
+.profile-info .content p {
+  font-weight: 400;
+  margin: 2rem 0;
+  line-height: 1.5;
+}
+
+.profile-info .content .link_about a {
+  color: #333;
+}
+
+.profile-info .content .link_about i {
+  color: #dc143c;
+  margin-right: 4%;
+}
+
+.profile-info .content .link_about a:hover,
+.profile-info .content .link_about a:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.25s;
+}
+
+.profile-info .content .link_about a:hover,
+.profile-info .content .link_about a:visited:hover {
+  color: #dc143c;
+  transition: color 0.25s;
+}
+
+.profile-info .stats .stat {
+  color: #dc143c;
+  font-size: 0.95em;
+  line-height: 2;
+}
+
+.profile-info .stats .stat .number {
+  font-size: 2em;
+  font-weight: 300;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  line-height: 100%;
+  color: #333;
+  vertical-align: top;
+  margin-right: 3%;
+}
+.content img {
+  border-radius: 50% !important;
+  border-color: #000;
+  padding: 5px;
+  border-bottom: 5px solid #e9a422;
+  border-right: 5px solid #efab2e;
+}
+
+
+             /* Copyright of about section   */
+
+  #copyright_about{
+    color: white;
+    width: 100%;
+    height: 11vh;
+    background-color: #110d07;
+    text-align: center;
+    margin-top: 74vh;
+    padding-top: 5vh;
+  }
+  #rose{
+    color: #dc143c;
+  }
+  #details_para{
+    opacity: .7;
+  }
