@@ -14,19 +14,37 @@ body{
 #subtotal{
     width: 100%;
     height: 100vh;
-    /* background-image: url('krishnann(1).jpg'); */
     background-image: url("./profPic1.jpg");
     background-size: cover;
     position: relative;
 }
 
+
 #letters{                                      /* div of introduction of main page */
     background-color:transparent;
     height: 100vh;
     width: 100%;
-    
+    margin-top: 4em;
     position: absolute;
 }
+
+@media (max-width: 570px) {
+  #letters {
+    background-color:transparent;
+    height: 100vh;
+    width: 90%; 
+    position: absolute;
+    margin-top: 22%;
+
+  }
+  h3 span.typed-text {
+    font-weight: normal;
+    color:   #ffb703 !important;
+    margin-right: 1vw;
+    font-family:cursive;   
+  }
+}
+
 h1{                                           /* "WELCOME TO MY SITE" writing part */
     color:  rgba(212, 209, 209, 0.9 );
     letter-spacing: 2px;
@@ -52,6 +70,7 @@ h3 span.typed-text {
     font-weight: normal;
     color: rgb(250, 75, 6);
     margin-right: 1vw;
+    font-family:cursive;   
   }
   h3 span.cursor {
     display: inline-block;
@@ -128,10 +147,10 @@ h3 span.typed-text {
 }
 
 #jumbotron{
-  width: 73vw;
+  width: 85vw;
   height: 116vh;
-  margin-top: 45vh;
-  margin-left: 12vw; 
+  margin-top: 27vh;
+  margin-left: 6vw; 
   text-align: center;
   background-color: #1d1c1b;
   padding-top: 3vw;
